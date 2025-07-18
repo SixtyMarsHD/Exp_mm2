@@ -39,14 +39,14 @@ local function Key_Mobile()
 
 	local Key_HotBar = Instance.new("Frame", Key_Frame)
 	Key_HotBar.Name = "HotBar"
-	Key_HotBar.Size = UDim2.new(0,250,0,105,0)
+	Key_HotBar.Size = UDim2.new(0,250,0,155,0)
 	Key_HotBar.BorderSizePixel = 0
 	Key_HotBar.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
 end
 
 
 if not UserInputService.TouchEnabled and UserInputService.KeyboardEnabled then
-	Key_Pc()
+	
 else
 	Key_Mobile()
 end
