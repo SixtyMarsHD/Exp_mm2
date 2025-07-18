@@ -48,5 +48,5 @@ end
 if not UserInputService.TouchEnabled and UserInputService.KeyboardEnabled then
 	
 else
-	Key_Mobile()
+	
 end
