@@ -21,5 +21,3 @@ Key_HotBar.Name = "HotBar"
 Key_HotBar.Size = UDim2.new(0,250,0,20,0)
 Key_HotBar.BorderSizePixel = 0
 Key_HotBar.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/SixtyMarsHD/Exp_mm2/refs/heads/main/Exp_mm2.txt'))()
